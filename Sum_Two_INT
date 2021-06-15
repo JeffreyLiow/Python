@@ -1,0 +1,22 @@
+Write a program to take two integers as input and output their sum.
+
+Sample Input:
+2
+8
+
+Sample Output:
+10
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# your code goes here
+
+# Store input numbers
+num1 = input()
+num2 = input()
+
+# Add two numbers
+sum = int(num1) + int(num2)
+
+# Display the sum
+print(sum)
