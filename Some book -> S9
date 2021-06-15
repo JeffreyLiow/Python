@@ -19,6 +19,11 @@ A12
 Recall the readlines() method, which returns a list containing the lines of the file.
 Also, remember that all lines, except the last one, contain a \n at the end, which should not be included in the character count.
 
+The idea behind f-strings is to make string interpolation simpler. 
+To create an f-string, prefix the string with the letter “ f ”. 
+The string itself can be formatted in much the same way that you would with str.format(). 
+F-strings provide a concise and convenient way to embed python expressions inside string literals for formatting.
+
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 file = open("/usercode/files/books.txt", "r")
